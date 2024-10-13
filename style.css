@@ -49,5 +49,34 @@ box-shadow: 0px 8px 10px rgba(0, 0, 0, 0);
 
 
 
+@media (max-width: 768px) {
+    .relogio {
+        gap: 20px;
+        padding: 15px;
+    }
 
+    #horas, #minutos, #segundos {
+        font-size: 40px;
+    }
+
+    .tempo {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .relogio {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    #horas, #minutos, #segundos {
+        font-size: 35px;
+    }
+
+    .tempo {
+        font-size: 14px;
+    }
+}
 
